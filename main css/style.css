@@ -1,0 +1,309 @@
+/* Global Css  */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+section{
+    padding: 75px 0px;
+
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+p{
+    font-weight: lighter;
+    font-size: 15px;
+}
+/* Header  */
+header{
+    background: #87509c;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #fff;
+    background: #0000003b;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    margin: 0px 10px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff;
+    background: #0000003b;
+    border-radius: 5px;
+}
+.header-content{
+    padding: 125px 0px;
+}
+.header-content button{
+    background: #eb7d4b;
+    border: none;
+    color: white;
+    padding: 13px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.header-content button:hover{
+    box-shadow: 2px 2px 2px #c86a40;
+}
+/* service section  */
+.service{
+    background: #17c2a4;
+}
+.underline{
+    width: 75px;
+    border-bottom: 4px solid #00000048;
+    margin: 10px auto;
+}
+/* Team section  */
+.Team{
+    background: #e7f1f8;
+}
+.team-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.team-h4{
+    color: #30bae7;
+}
+.social{
+
+}
+.social i{
+    background: #bdd1df;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0px 3px;
+}
+/* skill section  */
+.skill-img{
+
+}
+.skill-pars{
+    font-size: 54px;
+    position: absolute;
+    top: 19%;
+    left: 38%;
+}
+/* portfolio section  */
+.portfolio{
+    background: #ffdd99;
+}
+.btn-cstm{
+    background: rgb(0 0 0 / 17%);
+    border: none;
+}
+.portfolio-para{
+    font-size: 20px;
+    font-weight: 400;
+}
+.portfolio-btn{
+    background: #17c2a4;
+    border: none;
+    color: white;
+    padding: 13px 50px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.portfolio-btn:hover{
+    box-shadow: 2px 2px 2px #14a58c;
+}
+/* About section  */
+.about{
+    background: #d74680;
+}
+.about-h4{
+    color: #ffdd99;
+}
+.about-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.flex-grow-1 p{
+    font-style: italic;
+}
+/* contact section  */
+.contact{
+    background: #3c5499;
+}
+.input-cstm{
+    width: 49%;
+    display: inline-block;
+    background: #273a71;
+    border: none;
+}
+.input-cstm-msg{
+    background: #273a71;
+    border: none;
+}
+.input-cstm::placeholder{
+    color: #fff;
+}
+.input-cstm-msg::placeholder{
+    color: #fff;
+}
+.input-btn{
+    background: #30bae7;
+    border: none;
+    color: white;
+    padding: 13px 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.input-btn:hover{
+    box-shadow: 2px 2px 2px #299ec5;
+}
+footer{
+    background: #344b8e;
+}
+footer ul li a:hover{
+    color: #344b8e;
+}
+footer ul li a{
+    color: white;
+}
+/* Media query phone */
+@media only screen and (max-width: 600px){ 
+    section{
+        padding: 75px 0px;
+    
+    }
+    h1{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 22px;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    h4{
+        font-weight: normal;
+        font-size: 18px;
+    }
+    p{
+        font-weight: lighter;
+        font-size: 13px;
+    }
+    /* skill section  */
+    .skill-pars{
+        font-size: 54px;
+        top: 19%;
+        left: 41%;
+    }
+    .input-cstm{
+        width: 99%;
+        margin: 15px 0 ;
+    }
+    .input-cstm-msg{
+        width: 99%;
+    }
+    /* portfolio section  */
+   
+}
+/* Media query tab */
+@media (min-width: 601px) and (max-width: 900px){
+    section{
+        padding: 75px 0px;
+    
+    }
+    h1{
+        font-weight: bold;
+        font-size: 28px;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 23px;
+    }
+    h4{
+        font-weight: normal;
+        font-size: 21px;
+    }
+    p{
+        font-weight: lighter;
+        font-size: 15px;
+    }
+    /* skill section  */
+    .skill-pars{
+        font-size: 54px;
+        top: 19%;
+        left: 24%;
+    }
+    .input-cstm{
+        width: 99%;
+        margin: 15px 0 ;
+    }
+    .input-cstm-msg{
+        width: 99%;
+    }
+}
+/* Media query tab */
+@media (min-width: 901px) and (max-width: 1200px){
+    section{
+        padding: 75px 0px;
+    
+    }
+    h1{
+        font-weight: bold;
+        font-size: 35px;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    h4{
+        font-weight: normal;
+        font-size: 22px;
+    }
+    p{
+        font-weight: lighter;
+        font-size: 16px;
+    }
+    /* skill section  */
+    .skill-pars{
+        font-size: 54px;
+        top: 19%;
+        left: 30%;
+    }
+    .input-cstm{
+        width: 99%;
+        margin: 15px 0 ;
+    }
+    .input-cstm-msg{
+        width: 99%;
+    }
+}
